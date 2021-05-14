@@ -61,7 +61,8 @@ runApps = tk.Button(root, text='run apps', padx=20, pady=5,
                     fg='#FFFFFF', bg='#00555f', command=runApp)
 runApps.pack()
 
-# Make the directory names into labels to see what is currently saved
+# Make the directory names into labels
+# Allows you to see what is currently saved into save.txt
 for app in apps:
     label = tk.Label(frame, text=app)
     label.pack()
