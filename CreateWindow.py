@@ -2,16 +2,11 @@
 # - learning how to use tkinter
 #
 
-
-
 import tkinter as tk
 from tkinter import filedialog, Text
 import os  # allows us to run the apps that we add to our app
 
 root = tk.Tk()  # This holds the whole app, whenever you make something like a button et you attach it to the root
-
-def addApp():
-    ...
 
 
 # creates and alters the GUI,
@@ -25,7 +20,7 @@ frame.place(relwidth=.8, relheight=0.8,
 
 # creates a button, needs a function added through 'command='
 openFile = tk.Button(root, text='open file', padx=20, pady=5,
-                     fg='#FFFFFF', bg='#00555f', command=addApp())
+                     fg='#FFFFFF', bg='#00555f')
 openFile.pack()
 
 # create another button
