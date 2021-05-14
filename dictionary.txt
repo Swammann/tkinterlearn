@@ -1,0 +1,2 @@
+bg = background
+fg = foreground
